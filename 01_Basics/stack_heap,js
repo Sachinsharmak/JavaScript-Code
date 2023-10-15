@@ -1,0 +1,20 @@
+// Memory - Stack and Heap
+// Stack -> Primitive
+// Heap -> Non-Primitive
+
+let myYoutubeName = "sachin"
+let anotherName = myYoutubeName
+anotherName = "sharma"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let user1 = {
+    email :"user@google.com",
+    upi : "user@sbi"
+}
+let user2 = user1
+
+user2.email = "user2@email.com"
+console.log(user2)
+console.log(user1)
